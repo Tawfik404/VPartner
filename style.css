@@ -1,0 +1,52 @@
+#title{
+    margin-top: 5vh;
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(247, 1, 144);
+}
+
+
+
+
+
+#bf{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15vh;
+
+}
+#gf{
+    margin-top: 15vh;
+}
+
+svg:hover{
+    border-radius: 150px;
+    animation: br 0.5s 1;
+
+}
+@keyframes br {
+    from{
+        border: 0px;
+        
+    }
+
+    to{
+        border: 5px solid rgb(247, 1, 144);
+    }
+}
+
+#txtbf{
+    margin-right: 3vh;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: rgb(247, 1, 144);
+}
+#txtgf{
+    margin-left: 4vh;
+    font-size: 1.5em;
+    font-weight: 600;
+ 
+
+    
+
+}
